@@ -1,7 +1,8 @@
 {
   "notes": [
     "This is the new CI environment manifest.",
-    "That's all I have to say"
+    "That's all I have to say",
+    "Test comment"
   ],
   "jenkins": {
     "autodeploy": "yes"
