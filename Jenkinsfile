@@ -1,5 +1,6 @@
 #!groovy
+
 @Library('cdis-jenkins-lib@master') _
-testPipeline {
+testPipelineK8s {
   MANIFEST = "True"
 }
