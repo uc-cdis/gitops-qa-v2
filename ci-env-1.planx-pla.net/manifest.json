@@ -211,15 +211,15 @@
   "guppy": {
     "indices": [
       {
-        "index": "jenkins_subject_alias",
+        "index": "ci_env_1_subject_alias",
         "type": "subject"
       },
       {
-        "index": "jenkins_file_alias",
+        "index": "ci_env_1_file_alias",
         "type": "file"
       }
     ],
-    "config_index": "jenkins_configs_alias",
+    "config_index": "ci_env_1_configs_alias",
     "auth_filter_field": "auth_resource_path"
   },
   "scaling": {
