@@ -250,8 +250,8 @@
         }
       ],
       "restart_policy": "Never"
-    }  
-  ],  
+    }
+  ],
   "peregrine": {
     "sidecar": "False"
   },
