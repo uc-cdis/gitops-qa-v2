@@ -1,6 +1,6 @@
 #!groovy
 
-@Library('cdis-jenkins-lib@fix/wrong_github_ref_for_microserviceK8s_pipeline') _
+@Library('cdis-jenkins-lib@master') _
 testPipelineK8s {
   MANIFEST = "True"
 }
