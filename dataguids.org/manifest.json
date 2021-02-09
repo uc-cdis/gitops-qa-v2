@@ -30,7 +30,7 @@
 		"default": 0
 	},
 	"indexd": {
-		"dist": [{
+		"DIST": [{
 				"name": "DataSTAGE",
 				"host": "https://gen3.biodatacatalyst.nhlbi.nih.gov/index/",
 				"hints": [".*dg\\.4503.*"],
