@@ -30,42 +30,26 @@
 		"default": 0
 	},
 	"indexd": {
-		"DIST": [{
-				"name": "DataSTAGE",
-				"host": "https://gen3.biodatacatalyst.nhlbi.nih.gov/index/",
-				"hints": [".*dg\\.4503.*"],
-				"type": "indexd"
-			},
-			{
-				"name": "OCC Environmental DC",
-				"host": "https://portal.occ-data.org/index/",
-				"hints": [".*dg\\.7C5B.*"],
-				"type": "indexd"
-			},
-			{
-				"name": "Kids First",
-				"host": "https://data.kidsfirstdrc.org/index/",
-				"hints": [".*dg\\.F82A1A.*"],
-				"type": "indexd"
-			},
-			{
-				"name": "DX DOI",
-				"host": "https://dx.doi.org/",
-				"hints": ["10\\..*"],
-				"type": "doi"
-			},
-			{
-				"name": "NCI CRDC",
-				"host": "https://nci-crdc.datacommons.io/index/",
-				"hints": [],
-				"type": "indexd"
-			},
-			{
-				"name": "AnVIL",
-				"host": "https://gen3.theanvil.io/index/",
-				"hints": [".*dg\\.ANV0.*"],
-				"type": "indexd"
-			}
-		]
+		"DIST": [
+    			{
+        			"name": "Other IndexD",
+        			"host": "https://indexd.example.io/index/",
+        			"hints": [".*ROCKS.*"],
+        			"type": "indexd",
+    			},
+    			{"name": "DX DOI", "host": "https://doi.org/", "hints": ["10\..*"], "type": "doi"},
+    			{
+       				 "name": "DOS System",
+       				 "host": "https://example.com/api/ga4gh/dos/v1/",
+        			"hints": [],
+        			"type": "dos",
+    			},
+   			{
+        			"name": "DRS System",
+        			"host": "https://example.com/api/ga4gh/drs/v1/",
+        			"hints": [],
+        			"type": "drs",
+    			},
+			]
 	}
 }
