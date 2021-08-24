@@ -31,7 +31,6 @@
     "sower": "quay.io/cdis/sower:integration202109",
     "hatchery": "quay.io/cdis/hatchery:integration202109",
     "metadata": "quay.io/cdis/metadata-service:integration202109",
-    "dashboard": "quay.io/cdis/gen3-statics:integration202109",
     "requestor": "quay.io/cdis/requestor:master"
   },
   "arborist": {
