@@ -1,5 +1,5 @@
 mappings:
-  - name: ci-env-1_etl
+  - name: ci-env1_etl
     doc_type: subject
     type: aggregator
     root: subject
@@ -99,7 +99,7 @@ mappings:
       - path: projects[project_short_name:short_name]
       - path: projects[project_dbgap_accession_number:dbgap_accession_number]
 
-  - name: ci-env-1_file
+  - name: ci-env1_file
     doc_type: file
     type: collector
     root: None
